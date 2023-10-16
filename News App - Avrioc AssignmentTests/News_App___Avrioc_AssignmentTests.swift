@@ -4,13 +4,24 @@ import XCTest
 @testable import News_App___Avrioc_Assignment
 
 final class News_App___Avrioc_Assignment: XCTestCase {
+    
+    var mainViewController: ViewController!
+    var detailViewController: DetailViewController!
+    var newsViewModel: NewsViewModel!
 
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+                mainViewController = storyboard.instantiateViewController(withIdentifier: "MainViewController") as? ViewController
+                detailViewController = storyboard.instantiateViewController(withIdentifier: "detail") as? DetailViewController
+        newsViewModel = NewsViewModel()
+        
     }
 
     override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
+        mainViewController = nil
+        detailViewController = nil
+        newsViewModel = nil
     }
     
     func testDetailViewModel() throws
@@ -29,6 +40,38 @@ final class News_App___Avrioc_Assignment: XCTestCase {
         
         
     }
+    
+    func testMainViewController() {
+            // Load the main view controller
+            mainViewController.loadViewIfNeeded()
+            // Test the table view delegate and data source
+            XCTAssertNotNil(mainViewController.tableviewNews.delegate)
+            XCTAssertNotNil(mainViewController.tableviewNews.dataSource)
+        }
+    
+    func testNewsViewModel() {
+          // Test the view model's data loading
+          let expectation = XCTestExpectation(description: "News data loaded")
+          newsViewModel.loadNews()
+         
+        newsViewModel.eventHandler = { [weak self] event in
+            switch event {
+            case .dataLoaded:
+                XCTAssertGreaterThan(self!.newsViewModel.news.count, 0)
+            case .error(let error):
+                XCTFail("Error loading news: \(error!.localizedDescription)")
+            case .loading:
+                print("loading")
+            case .stopLoading:
+                print("stop loading")
+            }
+            
+            expectation.fulfill()
+        }
+        
+          
+          wait(for: [expectation], timeout: 6)
+      }
 
     func testExample() throws {
         // This is an example of a functional test case.
