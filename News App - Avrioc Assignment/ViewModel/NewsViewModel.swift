@@ -47,6 +47,7 @@ class NewsViewModel
 
 extension NewsViewModel
 {
+    //Enum for databinding
     enum Event
     {
         case loading

@@ -7,6 +7,7 @@
 
 import Foundation
 
+//Codable class to map json respone to this model class
 struct NewsModel: Codable
 {
     let status:String

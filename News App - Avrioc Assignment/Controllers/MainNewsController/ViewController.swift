@@ -59,6 +59,7 @@ extension ViewController
         viewModel.loadNews()
     }
     
+    //Databinding
     func observeEvent()
     {
         viewModel.eventHandler = { [weak self] event in
