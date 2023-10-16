@@ -1,0 +1,739 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7028E0382ADAC9E600AFF309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028E0372ADAC9E600AFF309 /* AppDelegate.swift */; };
+		7028E03A2ADAC9E600AFF309 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028E0392ADAC9E600AFF309 /* SceneDelegate.swift */; };
+		7028E03C2ADAC9E600AFF309 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028E03B2ADAC9E600AFF309 /* ViewController.swift */; };
+		7028E03F2ADAC9E600AFF309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7028E03D2ADAC9E600AFF309 /* Main.storyboard */; };
+		7028E0412ADAC9E700AFF309 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7028E0402ADAC9E700AFF309 /* Assets.xcassets */; };
+		7028E0442ADAC9E700AFF309 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7028E0422ADAC9E700AFF309 /* LaunchScreen.storyboard */; };
+		7028E04F2ADAC9E700AFF309 /* News_App___Avrioc_AssignmentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028E04E2ADAC9E700AFF309 /* News_App___Avrioc_AssignmentTests.swift */; };
+		7028E0592ADAC9E700AFF309 /* News_App___Avrioc_AssignmentUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028E0582ADAC9E700AFF309 /* News_App___Avrioc_AssignmentUITests.swift */; };
+		7028E05B2ADAC9E700AFF309 /* News_App___Avrioc_AssignmentUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028E05A2ADAC9E700AFF309 /* News_App___Avrioc_AssignmentUITestsLaunchTests.swift */; };
+		7028E0682ADACD6600AFF309 /* newsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7028E0672ADACD6600AFF309 /* newsCell.swift */; };
+		705BB7352ADAE9FA008948C7 /* NewsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BB7342ADAE9FA008948C7 /* NewsViewModel.swift */; };
+		705BB73D2ADAEC95008948C7 /* NetworkConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BB73C2ADAEC95008948C7 /* NetworkConstant.swift */; };
+		705BB73F2ADAEDE0008948C7 /* ApiCaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BB73E2ADAEDE0008948C7 /* ApiCaller.swift */; };
+		705BB7412ADAEE46008948C7 /* NewsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BB7402ADAEE46008948C7 /* NewsModel.swift */; };
+		705BB7442ADB1BE1008948C7 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 705BB7432ADB1BE1008948C7 /* Kingfisher */; };
+		705BB7482ADBCA0C008948C7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BB7472ADBCA0C008948C7 /* DetailViewController.swift */; };
+		705BB74A2ADBCB90008948C7 /* NewsDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 705BB7492ADBCB90008948C7 /* NewsDetailViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7028E04B2ADAC9E700AFF309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7028E02C2ADAC9E600AFF309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7028E0332ADAC9E600AFF309;
+			remoteInfo = "News App - Avrioc Assignment";
+		};
+		7028E0552ADAC9E700AFF309 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7028E02C2ADAC9E600AFF309 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7028E0332ADAC9E600AFF309;
+			remoteInfo = "News App - Avrioc Assignment";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7028E0342ADAC9E600AFF309 /* News App - Avrioc Assignment.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "News App - Avrioc Assignment.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7028E0372ADAC9E600AFF309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7028E0392ADAC9E600AFF309 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7028E03B2ADAC9E600AFF309 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7028E03E2ADAC9E600AFF309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7028E0402ADAC9E700AFF309 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7028E0432ADAC9E700AFF309 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7028E0452ADAC9E700AFF309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7028E04A2ADAC9E700AFF309 /* News App - Avrioc AssignmentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "News App - Avrioc AssignmentTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7028E04E2ADAC9E700AFF309 /* News_App___Avrioc_AssignmentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "News_App___Avrioc_AssignmentTests.swift"; sourceTree = "<group>"; };
+		7028E0542ADAC9E700AFF309 /* News App - Avrioc AssignmentUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "News App - Avrioc AssignmentUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7028E0582ADAC9E700AFF309 /* News_App___Avrioc_AssignmentUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "News_App___Avrioc_AssignmentUITests.swift"; sourceTree = "<group>"; };
+		7028E05A2ADAC9E700AFF309 /* News_App___Avrioc_AssignmentUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "News_App___Avrioc_AssignmentUITestsLaunchTests.swift"; sourceTree = "<group>"; };
+		7028E0672ADACD6600AFF309 /* newsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = newsCell.swift; sourceTree = "<group>"; };
+		705BB7342ADAE9FA008948C7 /* NewsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsViewModel.swift; sourceTree = "<group>"; };
+		705BB73C2ADAEC95008948C7 /* NetworkConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkConstant.swift; sourceTree = "<group>"; };
+		705BB73E2ADAEDE0008948C7 /* ApiCaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiCaller.swift; sourceTree = "<group>"; };
+		705BB7402ADAEE46008948C7 /* NewsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsModel.swift; sourceTree = "<group>"; };
+		705BB7472ADBCA0C008948C7 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		705BB7492ADBCB90008948C7 /* NewsDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7028E0312ADAC9E600AFF309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705BB7442ADB1BE1008948C7 /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7028E0472ADAC9E700AFF309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7028E0512ADAC9E700AFF309 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7028E02B2ADAC9E600AFF309 = {
+			isa = PBXGroup;
+			children = (
+				7028E0362ADAC9E600AFF309 /* News App - Avrioc Assignment */,
+				7028E04D2ADAC9E700AFF309 /* News App - Avrioc AssignmentTests */,
+				7028E0572ADAC9E700AFF309 /* News App - Avrioc AssignmentUITests */,
+				7028E0352ADAC9E600AFF309 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7028E0352ADAC9E600AFF309 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7028E0342ADAC9E600AFF309 /* News App - Avrioc Assignment.app */,
+				7028E04A2ADAC9E700AFF309 /* News App - Avrioc AssignmentTests.xctest */,
+				7028E0542ADAC9E700AFF309 /* News App - Avrioc AssignmentUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7028E0362ADAC9E600AFF309 /* News App - Avrioc Assignment */ = {
+			isa = PBXGroup;
+			children = (
+				705BB7362ADAEB7C008948C7 /* Networking */,
+				705BB7382ADAEBAB008948C7 /* Model */,
+				705BB7372ADAEB89008948C7 /* Classes */,
+				705BB7392ADAEBB4008948C7 /* Controllers */,
+				705BB73B2ADAEC50008948C7 /* ViewModel */,
+				705BB74B2ADC4CE1008948C7 /* Views */,
+				705BB74C2ADC4D04008948C7 /* Resources */,
+				7028E0372ADAC9E600AFF309 /* AppDelegate.swift */,
+				7028E0392ADAC9E600AFF309 /* SceneDelegate.swift */,
+				7028E0452ADAC9E700AFF309 /* Info.plist */,
+			);
+			path = "News App - Avrioc Assignment";
+			sourceTree = "<group>";
+		};
+		7028E04D2ADAC9E700AFF309 /* News App - Avrioc AssignmentTests */ = {
+			isa = PBXGroup;
+			children = (
+				7028E04E2ADAC9E700AFF309 /* News_App___Avrioc_AssignmentTests.swift */,
+			);
+			path = "News App - Avrioc AssignmentTests";
+			sourceTree = "<group>";
+		};
+		7028E0572ADAC9E700AFF309 /* News App - Avrioc AssignmentUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7028E0582ADAC9E700AFF309 /* News_App___Avrioc_AssignmentUITests.swift */,
+				7028E05A2ADAC9E700AFF309 /* News_App___Avrioc_AssignmentUITestsLaunchTests.swift */,
+			);
+			path = "News App - Avrioc AssignmentUITests";
+			sourceTree = "<group>";
+		};
+		705BB7362ADAEB7C008948C7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				705BB73C2ADAEC95008948C7 /* NetworkConstant.swift */,
+				705BB73E2ADAEDE0008948C7 /* ApiCaller.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		705BB7372ADAEB89008948C7 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		705BB7382ADAEBAB008948C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				705BB7402ADAEE46008948C7 /* NewsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		705BB7392ADAEBB4008948C7 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				705BB7462ADBC9DD008948C7 /* DetailViewController */,
+				705BB73A2ADAEBCC008948C7 /* MainNewsController */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		705BB73A2ADAEBCC008948C7 /* MainNewsController */ = {
+			isa = PBXGroup;
+			children = (
+				7028E03B2ADAC9E600AFF309 /* ViewController.swift */,
+				7028E0672ADACD6600AFF309 /* newsCell.swift */,
+			);
+			path = MainNewsController;
+			sourceTree = "<group>";
+		};
+		705BB73B2ADAEC50008948C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				705BB7342ADAE9FA008948C7 /* NewsViewModel.swift */,
+				705BB7492ADBCB90008948C7 /* NewsDetailViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		705BB7462ADBC9DD008948C7 /* DetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				705BB7472ADBCA0C008948C7 /* DetailViewController.swift */,
+			);
+			path = DetailViewController;
+			sourceTree = "<group>";
+		};
+		705BB74B2ADC4CE1008948C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7028E03D2ADAC9E600AFF309 /* Main.storyboard */,
+				7028E0422ADAC9E700AFF309 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		705BB74C2ADC4D04008948C7 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7028E0402ADAC9E700AFF309 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7028E0332ADAC9E600AFF309 /* News App - Avrioc Assignment */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7028E05E2ADAC9E700AFF309 /* Build configuration list for PBXNativeTarget "News App - Avrioc Assignment" */;
+			buildPhases = (
+				7028E0302ADAC9E600AFF309 /* Sources */,
+				7028E0312ADAC9E600AFF309 /* Frameworks */,
+				7028E0322ADAC9E600AFF309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "News App - Avrioc Assignment";
+			packageProductDependencies = (
+				705BB7432ADB1BE1008948C7 /* Kingfisher */,
+			);
+			productName = "News App - Avrioc Assignment";
+			productReference = 7028E0342ADAC9E600AFF309 /* News App - Avrioc Assignment.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7028E0492ADAC9E700AFF309 /* News App - Avrioc AssignmentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7028E0612ADAC9E700AFF309 /* Build configuration list for PBXNativeTarget "News App - Avrioc AssignmentTests" */;
+			buildPhases = (
+				7028E0462ADAC9E700AFF309 /* Sources */,
+				7028E0472ADAC9E700AFF309 /* Frameworks */,
+				7028E0482ADAC9E700AFF309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7028E04C2ADAC9E700AFF309 /* PBXTargetDependency */,
+			);
+			name = "News App - Avrioc AssignmentTests";
+			productName = "News App - Avrioc AssignmentTests";
+			productReference = 7028E04A2ADAC9E700AFF309 /* News App - Avrioc AssignmentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7028E0532ADAC9E700AFF309 /* News App - Avrioc AssignmentUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7028E0642ADAC9E700AFF309 /* Build configuration list for PBXNativeTarget "News App - Avrioc AssignmentUITests" */;
+			buildPhases = (
+				7028E0502ADAC9E700AFF309 /* Sources */,
+				7028E0512ADAC9E700AFF309 /* Frameworks */,
+				7028E0522ADAC9E700AFF309 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7028E0562ADAC9E700AFF309 /* PBXTargetDependency */,
+			);
+			name = "News App - Avrioc AssignmentUITests";
+			productName = "News App - Avrioc AssignmentUITests";
+			productReference = 7028E0542ADAC9E700AFF309 /* News App - Avrioc AssignmentUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7028E02C2ADAC9E600AFF309 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7028E0332ADAC9E600AFF309 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					7028E0492ADAC9E700AFF309 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 7028E0332ADAC9E600AFF309;
+					};
+					7028E0532ADAC9E700AFF309 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 7028E0332ADAC9E600AFF309;
+					};
+				};
+			};
+			buildConfigurationList = 7028E02F2ADAC9E600AFF309 /* Build configuration list for PBXProject "News App - Avrioc Assignment" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7028E02B2ADAC9E600AFF309;
+			packageReferences = (
+				705BB7422ADB1BE1008948C7 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 7028E0352ADAC9E600AFF309 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7028E0332ADAC9E600AFF309 /* News App - Avrioc Assignment */,
+				7028E0492ADAC9E700AFF309 /* News App - Avrioc AssignmentTests */,
+				7028E0532ADAC9E700AFF309 /* News App - Avrioc AssignmentUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7028E0322ADAC9E600AFF309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7028E0442ADAC9E700AFF309 /* LaunchScreen.storyboard in Resources */,
+				7028E0412ADAC9E700AFF309 /* Assets.xcassets in Resources */,
+				7028E03F2ADAC9E600AFF309 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7028E0482ADAC9E700AFF309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7028E0522ADAC9E700AFF309 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7028E0302ADAC9E600AFF309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				705BB7482ADBCA0C008948C7 /* DetailViewController.swift in Sources */,
+				705BB7412ADAEE46008948C7 /* NewsModel.swift in Sources */,
+				705BB74A2ADBCB90008948C7 /* NewsDetailViewModel.swift in Sources */,
+				7028E03C2ADAC9E600AFF309 /* ViewController.swift in Sources */,
+				7028E0382ADAC9E600AFF309 /* AppDelegate.swift in Sources */,
+				705BB73F2ADAEDE0008948C7 /* ApiCaller.swift in Sources */,
+				705BB7352ADAE9FA008948C7 /* NewsViewModel.swift in Sources */,
+				7028E0682ADACD6600AFF309 /* newsCell.swift in Sources */,
+				705BB73D2ADAEC95008948C7 /* NetworkConstant.swift in Sources */,
+				7028E03A2ADAC9E600AFF309 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7028E0462ADAC9E700AFF309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7028E04F2ADAC9E700AFF309 /* News_App___Avrioc_AssignmentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7028E0502ADAC9E700AFF309 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7028E05B2ADAC9E700AFF309 /* News_App___Avrioc_AssignmentUITestsLaunchTests.swift in Sources */,
+				7028E0592ADAC9E700AFF309 /* News_App___Avrioc_AssignmentUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7028E04C2ADAC9E700AFF309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7028E0332ADAC9E600AFF309 /* News App - Avrioc Assignment */;
+			targetProxy = 7028E04B2ADAC9E700AFF309 /* PBXContainerItemProxy */;
+		};
+		7028E0562ADAC9E700AFF309 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7028E0332ADAC9E600AFF309 /* News App - Avrioc Assignment */;
+			targetProxy = 7028E0552ADAC9E700AFF309 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7028E03D2ADAC9E600AFF309 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7028E03E2ADAC9E600AFF309 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7028E0422ADAC9E700AFF309 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7028E0432ADAC9E700AFF309 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7028E05C2ADAC9E700AFF309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7028E05D2ADAC9E700AFF309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7028E05F2ADAC9E700AFF309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8G67WWWAE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "News App - Avrioc Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avrioc.News-App---Avrioc-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7028E0602ADAC9E700AFF309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8G67WWWAE;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "News App - Avrioc Assignment/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avrioc.News-App---Avrioc-Assignment";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		7028E0622ADAC9E700AFF309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8G67WWWAE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avrioc.News-App---Avrioc-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/News App - Avrioc Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/News App - Avrioc Assignment";
+			};
+			name = Debug;
+		};
+		7028E0632ADAC9E700AFF309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8G67WWWAE;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avrioc.News-App---Avrioc-AssignmentTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/News App - Avrioc Assignment.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/News App - Avrioc Assignment";
+			};
+			name = Release;
+		};
+		7028E0652ADAC9E700AFF309 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8G67WWWAE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avrioc.News-App---Avrioc-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "News App - Avrioc Assignment";
+			};
+			name = Debug;
+		};
+		7028E0662ADAC9E700AFF309 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X8G67WWWAE;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.avrioc.News-App---Avrioc-AssignmentUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "News App - Avrioc Assignment";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7028E02F2ADAC9E600AFF309 /* Build configuration list for PBXProject "News App - Avrioc Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7028E05C2ADAC9E700AFF309 /* Debug */,
+				7028E05D2ADAC9E700AFF309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7028E05E2ADAC9E700AFF309 /* Build configuration list for PBXNativeTarget "News App - Avrioc Assignment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7028E05F2ADAC9E700AFF309 /* Debug */,
+				7028E0602ADAC9E700AFF309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7028E0612ADAC9E700AFF309 /* Build configuration list for PBXNativeTarget "News App - Avrioc AssignmentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7028E0622ADAC9E700AFF309 /* Debug */,
+				7028E0632ADAC9E700AFF309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7028E0642ADAC9E700AFF309 /* Build configuration list for PBXNativeTarget "News App - Avrioc AssignmentUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7028E0652ADAC9E700AFF309 /* Debug */,
+				7028E0662ADAC9E700AFF309 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		705BB7422ADB1BE1008948C7 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.9.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		705BB7432ADB1BE1008948C7 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 705BB7422ADB1BE1008948C7 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 7028E02C2ADAC9E600AFF309 /* Project object */;
+}
